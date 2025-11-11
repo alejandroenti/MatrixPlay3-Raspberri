@@ -25,14 +25,14 @@ mvn clean compile
    ```
 4. Run the project:
  ``` bash
-./run.sh com.client.Main  --> Linuz/Max
+./run.sh com.client.Main  --> Linuz/Mac
 .\run.ps1 com.client,Main --> Windows
    ```
 
 ## Related projects
 - [WebSockets Server](https://github.com/Alvarjur/MatrixPlay3-Server)
+- [Android Kotlin client](https://github.com/alejandroenti/Connecta4GameKotlin)
 - [JavaFX Desktop client](https://github.com/Yessc/MatrixPlay3-APPDesktop)
-- [Java Raspberry Pi Client](https://github.com/alejandroenti/MatrixPlay3-Raspberri)
 
 ## Developers
 | [<img src="https://github.com/Yessc.png" width="80">](https://github.com/Yessc) | [<img src="https://github.com/Alvarjur.png" width="80">](https://github.com/Alvarjur) | [<img src="https://github.com/alejandroenti.png" width="80">](https://github.com/alejandroenti) |
