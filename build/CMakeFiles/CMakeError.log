@@ -1,0 +1,23 @@
+Performing C SOURCE FILE Test JNI_INCLUDE_PATH2_OPTIONAL failed with the following output:
+Change Dir: /home/pi/Adafruit_Pi5_Piomatter/piomatter-java-jni/build/CMakeFiles/CMakeScratch/TryCompile-wLQQdf
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_eccd6/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_eccd6.dir/build.make CMakeFiles/cmTC_eccd6.dir/build
+gmake[1]: se entra en el directorio '/home/pi/Adafruit_Pi5_Piomatter/piomatter-java-jni/build/CMakeFiles/CMakeScratch/TryCompile-wLQQdf'
+Building C object CMakeFiles/cmTC_eccd6.dir/src.c.o
+/usr/bin/cc -DJNI_INCLUDE_PATH2_OPTIONAL -I/usr/lib/jvm/default-java/include -fPIE -std=gnu11 -o CMakeFiles/cmTC_eccd6.dir/src.c.o -c /home/pi/Adafruit_Pi5_Piomatter/piomatter-java-jni/build/CMakeFiles/CMakeScratch/TryCompile-wLQQdf/src.c
+In file included from /home/pi/Adafruit_Pi5_Piomatter/piomatter-java-jni/build/CMakeFiles/CMakeScratch/TryCompile-wLQQdf/src.c:2:
+/usr/lib/jvm/default-java/include/jni.h:45:10: fatal error: jni_md.h: No existe el fichero o el directorio
+   45 | #include "jni_md.h"
+      |          ^~~~~~~~~~
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTC_eccd6.dir/build.make:78: CMakeFiles/cmTC_eccd6.dir/src.c.o] Error 1
+gmake[1]: se sale del directorio '/home/pi/Adafruit_Pi5_Piomatter/piomatter-java-jni/build/CMakeFiles/CMakeScratch/TryCompile-wLQQdf'
+gmake: *** [Makefile:127: cmTC_eccd6/fast] Error 2
+
+
+Source file was:
+
+#include <jni.h>
+int main(void) { return 0; }
+
+

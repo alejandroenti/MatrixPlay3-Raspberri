@@ -1,0 +1,3 @@
+/home/pi/Adafruit_Pi5_Piomatter/piomatter-java-jni/build/CMakeFiles/piomatterjni.dir
+/home/pi/Adafruit_Pi5_Piomatter/piomatter-java-jni/build/CMakeFiles/edit_cache.dir
+/home/pi/Adafruit_Pi5_Piomatter/piomatter-java-jni/build/CMakeFiles/rebuild_cache.dir
