@@ -306,7 +306,7 @@ public class Main {
                                     scrollX = 1;
                                 }
 
-                                String qrText = "https://matrixplay.ieti.site/grup3_apk";
+                                String qrText = "https://matrixplay.ieti.site/grup3.apk";
                                 int[][] qrMatrix = QR.generateQR(qrText, 36);
 
                                 int initPosX = (WIDTH / 2) - 19;
